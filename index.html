@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+            </div>
+
+            <div id="social_media">
+                <a href="#" target="_blank">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                </a>
+          
+                <a href="#" target="_blank">
+                    <ion-icon name="mail-outline"></ion-icon>
+                 </a>
+          
+                <a href="#" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+          
+                <a href="#" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <input type="text" name="name" id="name">
+                        </div>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label for="password">
+                        Senha
+                        <div class="input-field">
+                            <ion-icon name="key-outline"></ion-icon>
+                            <input type="password" name="password" id="password">
+                        </div>
+                    </label>
+                    <div id="forgot_password">
+                        <a href="#">
+                            Esqueceu sua senha?
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+    </main>
+    <footer id="footer">
+        <a href="https://leeonardos.github.io/digital-workers/" target="_blank">
+        Feito por Digital Workers.
+        </a>
+    </footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
